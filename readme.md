@@ -2,7 +2,6 @@
 
 # Glossary
 
----
 
 the markdown in /docs works as follows:
 
