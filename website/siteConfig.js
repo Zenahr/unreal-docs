@@ -21,15 +21,15 @@ const users = [{
 const siteConfig = {
     title: 'Zen Dev\'s UE4 Documentation', // Title for your website.
     tagline: 'Personal Docs page for own unreal engine 4 related projects.',
-    url: 'https://your-docusaurus-test-site.com', // Your website URL
-    baseUrl: '/', // Base URL for your project */
+    url: 'http://zenahr.com/docs', // Your website URL
+    baseUrl: '/unreal-engine', // Base URL for your project */
     // For github.io type URLs, you would set the url and baseUrl like:
     //   url: 'https://facebook.github.io',
     //   baseUrl: '/test-site/',
 
     // Used for publishing and more
-    projectName: 'test-site',
-    organizationName: 'facebook',
+    projectName: 'zen-dev-unreal-engine-documentation',
+    organizationName: 'ZenDev',
     // For top-level user or org sites, the organization is still the same.
     // e.g., for the https://JoelMarcey.github.io site, it would be set like...
     //   organizationName: 'JoelMarcey'
