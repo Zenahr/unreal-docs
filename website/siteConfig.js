@@ -21,8 +21,8 @@ const users = [{
 const siteConfig = {
     title: 'Zen Dev\'s UE4 Documentation', // Title for your website.
     tagline: 'Personal Docs page for own unreal engine 4 related projects.',
-    url: 'http://zenahr.com/docs', // Your website URL
-    baseUrl: '/unreal-engine', // Base URL for your project */
+    url: 'http://zenahr.com/docs/unreal-engine', // Your website URL
+    baseUrl: '/docs/unreal-engine/', // Base URL for your project */
     // For github.io type URLs, you would set the url and baseUrl like:
     //   url: 'https://facebook.github.io',
     //   baseUrl: '/test-site/',
