@@ -19,8 +19,8 @@ const users = [{
 }, ];
 
 const siteConfig = {
-    title: 'Test Site', // Title for your website.
-    tagline: 'A website for testing',
+    title: 'Zen Dev\'s UE4 Documentation', // Title for your website.
+    tagline: 'Personal Docs page for own unreal engine 4 related projects.',
     url: 'https://your-docusaurus-test-site.com', // Your website URL
     baseUrl: '/', // Base URL for your project */
     // For github.io type URLs, you would set the url and baseUrl like:
@@ -39,7 +39,7 @@ const siteConfig = {
         { doc: 'doc1', label: 'Docs' },
         { doc: 'doc4', label: 'API' },
         { page: 'help', label: 'Help' },
-        { blog: true, label: 'Blog' },
+        // { blog: true, label: 'Blog' },
     ],
 
     // If you have users set above, you add it here:
@@ -52,8 +52,8 @@ const siteConfig = {
 
     /* Colors for website */
     colors: {
-        primaryColor: '#283539',
-        secondaryColor: '#1c2527',
+        primaryColor: '#303030',
+        secondaryColor: '#808080',
     },
 
     /* Custom fonts for website */
