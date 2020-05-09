@@ -1,7 +1,7 @@
 ---
 id: doc1
-title: Latin-ish
-sidebar_label: Create High-Definition photos of your game using Nvidia's "Ansel" plugin.
+title: Create High-Definition photos of your game using Nvidia's "Ansel" plugin.
+sidebar_label: Nvidia Ansel Plugin Usage Guide
 ---
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
