@@ -1,10 +1,11 @@
 {
-  "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
-  }
+    "docs": {
+        "Docusaurus": ["doc1"],
+        "Clickable Actors": ["ca-1", "ca-2", "ca-3"],
+        "Second Category": ["doc3"],
+        "Tidbits": ["tidbits-1"]
+    },
+    "docs-other": {
+        "Tidbits": ["tidbits-1"]
+    }
 }

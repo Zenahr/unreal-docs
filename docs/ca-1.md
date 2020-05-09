@@ -11,7 +11,8 @@ Sometimes we would like to interact with our game objects via click events. This
 ## Setup
 
 1. Create a new Player Controller Blueprint
-2. Under _Mouse Interface_ inside the _Details_ panel enable the following options:
+2. Open your new Controller Blueprint
+3. Under _Mouse Interface_ inside the _Details_ panel enable the following options:
 - Show Mouse Cursor
 - Enable Click Events
 - Enable Mouse Over Events
@@ -20,12 +21,19 @@ For convinience sake let's enable touch screen support too:
 - Enable Touch Events
 - Enable Touch Over Events
 
+
 Now create a new GameMode Blueprint.
 
 We need to specify the new Player Controller as our _Player Controller Class_ inside the _Classes_ panel found in the _Details_ panel.
 Also we need to override the GameMode inside our _World Settings_ for our current level.
 
-Make sure your level has a _Player Start_.
+4. Create a new GameMode Blueprint
+5. Open the Blueprint
+6. Set the _Player Controller Class_ inside the _Details_ panel to the Controller we just created.
+7. Inside _World Settings_ make sure to override the Player Controller with your custom Player Controller.
+
+
+Note: Make sure your level has a _Player Start_.
 You should now be able to move around and see the Mouse Cursor when playing the game.
 
 # Deactivating Movement by Mouse Cursor (Posessing a static Camera Actor)
